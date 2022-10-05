@@ -205,3 +205,48 @@ Simp.in Ph.572.25.
 ```
 
 </details>
+
+
+#### Morphological forms of nouns + adjectives extracted from LSJ - https://github.com/gcelano/Thesaurus_Morphologicus_Linguae_Graecae
+
+- xml format, easy to parse
+- contains nouns (decl. I and II) and adjectives (I and II) **only**
+- 732K zip-compressed, 5.6M unpacked.
+
+<details>
+<summary>Snippet (adj)</summary>
+
+```xml
+
+<l id="n73673" key="ὁμοιόσημος" key2="ὁμοιόσημος" cls="1" bse="ὁμοιοσημ" end="ος_ον"/>
+<l id="n73675" key="ὁμοιόσκευος" key2="ὁμοιόσκευος" cls="1" bse="ὁμοιοσκευ" end="ος_ον"/>
+```
+
+</details>
+
+<details>
+<summary>Snippet (nouns decl. I)</summary>
+
+```xml
+
+<l id="n164" key="ἁβροβάτης" key2="ἁβροβάτης" gnt="ου" gnd="ὁ" dcl="1" bse="ἁβροβατ" end="ης"/>
+<l id="n169" key="ἁβροδίαιτα" key2="ἁβροδίαιτα" gnt="ας" gnd="ἡ" dcl="1" bse="ἁβροδιαιτ" end="α"/>
+```
+
+</details>
+<details>
+<summary>Snippet (nouns decl. II)</summary>
+
+```xml
+
+<l id="n397" key="ἄγγελος" key2="ἄγγελος" gnt="ου" gnd="ὁ" dcl="2" bse="ἀγγελ" end="ος"/>
+<l id="n410" key="ἄγεθλον" key2="ἄγεθλον" gnt="ου" gnd="τό" dcl="2" bse="ἀγεθλ" end="ον"/>
+<l id="n442" key="ἀγελητρόφος" key2="ἀγελητρόφος" gnt="ου" gnd="ὁ" dcl="2" bse="ἀγελητροφ" end="ος"/>
+  ```
+
+</details>
+
+### TODO:
+
+- https://github.com/PerseusDL/lexica/
+- http://www.perseus.tufts.edu/hopper/opensource/download
