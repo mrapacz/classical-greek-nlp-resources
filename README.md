@@ -17,9 +17,7 @@ Classical Greek
 
 Comments on each below.
 
-#### Plaintext LSJ
-
-Link: https://archive.org/details/Lsj--LiddellScott
+#### Plaintext LSJ - https://archive.org/details/Lsj--LiddellScott
 
 - 12M gzip, 36M unpacked.
 - A single txt file, plaintext version of Greek-English LSJ.
