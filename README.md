@@ -29,8 +29,6 @@ Link: https://archive.org/details/Lsj--LiddellScott
 - No out-of-the-box way of parsing within a definition.
 - Some entries contain extra chars such as '-', e.g. `ἀγαθο-γονία`
 
-Snippet:
-
 <details>
 <summary>Snippet</summary>
 
@@ -205,7 +203,6 @@ Simp.in Ph.572.25.
 ```
 
 </details>
-
 
 #### Morphological forms of nouns + adjectives extracted from LSJ - https://github.com/gcelano/Thesaurus_Morphologicus_Linguae_Graecae
 
