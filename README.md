@@ -305,5 +305,19 @@ The resources are distributed across two places:
 
 </details>
 
-## Bible
+## Betacode converters
+Betacode is a romanized way of representing Greek texts (e.g. `ὠμόβυρσος` -> `w)mo/bursos`) ([wikipedia](https://en.wikipedia.org/wiki/Beta_Code)).
+There's a bunch of tools allowing for working with this format and converting it to Unicode.
 
+More reading:
+- The process poses a range of problems which were listed in [PerseusDL/tei-conversion-tools](https://github.com/PerseusDL/tei-conversion-tools/wiki/Greek-Betacode-to-Unicode-Transformations).
+- [Should I use TLG betacode or Unicode for polytonic classical Greek in my electronic publications?](https://wiki.digitalclassicist.org/TLG_Beta_Code_vs._Unicode_FAQ)
+
+### Online Betacode <-> Unicode converters
+- https://apps.perseids.org/beta-code/ bidirectional, paste from/to clipboard style
+- https://www.translatum.gr/converter/beta-code.htm bidirectional, paste from/to clipboard style
+- https://cental.uclouvain.be/beta2uni/ Betacode -> Unicode converter, accepts txt files
+### Python packages
+- https://github.com/jtauber/greek-utils Allows for Betacode -> Unicode conversion
+- https://github.com/matgrioni/betacode Bidirectional conversions
+ 
