@@ -242,13 +242,13 @@ Simp.in Ph.572.25.
 
 </details>
 
-#### Perseus DL - https://github.com/PerseusDL/lexica/
+#### Perseus DL - https://github.com/PerseusDL/lexica/ (last commit: 2022-08-19)
 
 Perseus Digital Library comprises various Greek and Latin digital resources.
 More details: https://github.com/PerseusDL/lexica/wiki
 The resources are distributed across two places:
 
-- https://github.com/PerseusDL/lexica - which contains the LSJ (1940) lexicon of LSJ
+- https://github.com/PerseusDL/lexica (last commit: 2022-08-19)  - which contains the LSJ (1940) lexicon of LSJ
     - Betacode
     - Perseus format (XML)
     - 271M
@@ -306,18 +306,26 @@ The resources are distributed across two places:
 </details>
 
 ## Betacode converters
-Betacode is a romanized way of representing Greek texts (e.g. `ὠμόβυρσος` -> `w)mo/bursos`) ([wikipedia](https://en.wikipedia.org/wiki/Beta_Code)).
+
+Betacode is a romanized way of representing Greek texts (e.g. `ὠμόβυρσος`
+-> `w)mo/bursos`) ([wikipedia](https://en.wikipedia.org/wiki/Beta_Code)).
 There's a bunch of tools allowing for working with this format and converting it to Unicode.
 
 More reading:
-- The process poses a range of problems which were listed in [PerseusDL/tei-conversion-tools](https://github.com/PerseusDL/tei-conversion-tools/wiki/Greek-Betacode-to-Unicode-Transformations).
+
+- The process poses a range of problems which were listed
+  in [PerseusDL/tei-conversion-tools](https://github.com/PerseusDL/tei-conversion-tools/wiki/Greek-Betacode-to-Unicode-Transformations)
+  .
 - [Should I use TLG betacode or Unicode for polytonic classical Greek in my electronic publications?](https://wiki.digitalclassicist.org/TLG_Beta_Code_vs._Unicode_FAQ)
 
 ### Online Betacode <-> Unicode converters
+
 - https://apps.perseids.org/beta-code/ bidirectional, paste from/to clipboard style
 - https://www.translatum.gr/converter/beta-code.htm bidirectional, paste from/to clipboard style
 - https://cental.uclouvain.be/beta2uni/ Betacode -> Unicode converter, accepts txt files
+
 ### Python packages
-- https://github.com/jtauber/greek-utils Allows for Betacode -> Unicode conversion
-- https://github.com/matgrioni/betacode Bidirectional conversions
+
+- https://github.com/jtauber/greek-utils (last commit: 2022-07-07)  Allows for Betacode -> Unicode conversion
+- https://github.com/matgrioni/betacode (last commit: 2022-10-05)  Bidirectional conversions
  
