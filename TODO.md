@@ -39,3 +39,8 @@
 - http://dge.cchs.csic.es/bib/salonica.htm
 ### OCR
 https://wiki.digitalclassicist.org/OCR_for_ancient_Greek
+
+
+---------------
+
+https://legacy.cltk.org/en/latest/greek.html
