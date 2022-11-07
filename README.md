@@ -5,18 +5,25 @@
 This repository contains a list of publicly available resources that might come in handy while performing NLP tasks for
 Classical Greek
 
+# Lexica
+
+- Liddell, Scott, Jones Ancient Greek Lexicon (LSJ)
+- DGE - Diccionario Griego-Español
+- University of the Aegean https://myria.math.aegean.gr/lds/web/index-en.php
+
+## University of the Aegean
+
+Available here - https://myria.math.aegean.gr/lds/web/index-en.php
+
+The site mentions:
+> The project, after an initial period of testing, will be given for download with an free license.
+
+However, the copyright of the site dates back to 2011 and the site doesn't link to any dataset, so it doesn't seem
+likely to appear any time soon.
+
 ## Liddell, Scott, Jones Ancient Greek Lexicon (LSJ)
 
 This is the de facto best known / most popular Ancient Greek - English lexicon.
-
-- https://archive.org/details/Lsj--LiddellScott
-- https://github.com/gcelano/Thesaurus_Morphologicus_Linguae_Graecae (last commit: 2019-05-12)
-- https://github.com/gcelano/LSJ_additions (last commit: 2018-11-06)
-- https://github.com/gcelano/LSJ_GreekUnicode (last commit: 2022-09-22)
-- https://github.com/gcelano/lexica (last commit: 2022-06-10)
-- https://github.com/PerseusDL/lexica/ (last commit: 2022-08-19)
-
-Comments on each below.
 
 #### Plaintext LSJ - https://archive.org/details/Lsj--LiddellScott
 
@@ -305,7 +312,18 @@ The resources are distributed across two places:
 
 </details>
 
-## Betacode converters
+# Ancient Greek WordNet - https://greekwordnet.chs.harvard.edu/
+There is an ongoing WordNet project modeling the semantic system of the Ancient Greek. 
+There's [a public API](https://greekwordnet.chs.harvard.edu/api) for querying the dataset and there are also github repos [link](https://github.com/greekwordnet/greekwordnet-archive) containing historical dumps of the data and a simple Python wrapper [link](https://github.com/greekwordnet/py-greekwordnet) to communicate with the said API.
+
+The historical dumps are said to be 
+> refreshed periodically
+
+however it seems like the latest commits to the repo date back to 2019/2020. I have also tried to get in touch with the authors (at greekwordnet@chs.harvard.edu) regarding newer dumps, but unfortunately got no response. It's hard to tell whether the project is really ongoing as the site claims.
+
+The data is accessible under **CC BY-SA 4.0** license.
+
+# Betacode converters
 
 Betacode is a romanized way of representing Greek texts (e.g. `ὠμόβυρσος`
 -> `w)mo/bursos`) ([wikipedia](https://en.wikipedia.org/wiki/Beta_Code)).
@@ -328,4 +346,16 @@ More reading:
 
 - https://github.com/jtauber/greek-utils (last commit: 2022-07-07)  Allows for Betacode -> Unicode conversion
 - https://github.com/matgrioni/betacode (last commit: 2022-10-05)  Bidirectional conversions
- 
+
+---
+
+#### About
+
+I started compiling this list for myself and figured I could make it public to:
+
+1. motivate myself to polish it a bit more and
+2. to make it easier for anyone else to understand the landscape of NLP for Classical Greek.
+
+I've found [another list (eyy/classics)](https://github.com/eyy/classics) which seems to have attempted to do the same
+thing, but unfortunately it hasn't been updated since 2016. It pointed me to a couple of materials that are still being
+worked on today, though.

@@ -37,6 +37,11 @@
 -  https://github.com/biblical-text/koine-greek-english-dictionary/blob/master/koine-greek-english-dictionary.txt
 - https://github.com/ncrt035/lexiconGrammaticum
 - http://dge.cchs.csic.es/bib/salonica.htm
+
+#### DATASETY
+- https://figshare.com/articles/dataset/The_Diorisis_Ancient_Greek_Corpus/6187256
+  - Data for this study was gathered from the Diorisis Ancient Greek corpus (Vatri and McGillivray, 2018) (https://www.doi.org/10.6084/m9.figshare.6187256). This corpus comprises 820 literary Greek texts, spanning chronologically from Homer (8th century BC?) to the 5th century CE, for a total of over 10 million words. The texts are mainly sourced from the Perseus Canonical Greek Literature repository (along with The Little Sailing and Bibliotheca Augustana digital libraries); each text is fully lemmatised using a custom-built dictionary, and PoS-tagged with TreeTagger (Schmid, 1994) trained on the Ancient Greek Dependency Treebank (Celano, 2014) and the Ancient Greek portion of the PROIEL treebank (Haug and Jøhndal, 2008).
+  - The Diorisis corpus is fully lemmatised; all vector space models discussed here were built on the lemmas, not inflected words. We decided to include the entirety of the material available, without chronological filtering. This decision was made both to compensate for the relatively small size of the corpus itself (in comparison with modern language corpora), and on account of the nature of the “gold-standard” datasets that will be introduced in section 3.1.
 ### OCR
 https://wiki.digitalclassicist.org/OCR_for_ancient_Greek
 
@@ -44,3 +49,5 @@ https://wiki.digitalclassicist.org/OCR_for_ancient_Greek
 ---------------
 
 https://legacy.cltk.org/en/latest/greek.html
+https://docs.cltk.org/en/latest/cltk.tokenizers.html
+greekwordnet.chs.harvard.edu/
